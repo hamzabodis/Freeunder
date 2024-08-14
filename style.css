@@ -1,0 +1,945 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 10vh;
+    background: linear-gradient(#18BA56 , #02701F , #004B10);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h1{
+    position: relative;
+    left: 30px;
+    cursor: pointer;
+    color: white;
+    letter-spacing: 1.5px;
+    transition: 0.8s;
+    
+}
+.logo h1:hover{
+    color: rgb(35, 145, 141);
+}
+.listo ul li{
+    display: inline-block;
+    margin: 0 30px;
+    list-style: none;
+}
+.listo ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    transition: 0.8s;
+}
+.listo ul li a:hover{
+    padding-right: 5px;
+    color: rgb(35, 145, 141);
+    border-bottom: 2px solid rgb(35, 145, 141) ;
+}
+#pop{
+    display: none;
+}
+#fal{
+    display: none;
+}
+#tro{
+    display: none;
+}
+
+/* content */
+
+.container{
+    width: 100%;
+    height: 90vh;
+    align-items: center;
+   
+    
+}
+.text{
+    width: 40%;
+    height: 100%;
+    float: left;
+    margin-left: 5%;
+    padding-top: 6%;
+  
+}
+.text h1{
+    color: #004B10;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    line-height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    
+}
+.text p{
+    padding-top: 20px;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 1.5px;
+    padding-left: 5px;
+}
+.image1{
+    width: 40%;
+    height: 100%;
+    float: right;
+    margin-right: 5%;
+    padding-top: 6%;
+    
+}
+.png1{
+    width: 90%;
+}
+
+.title1{
+    width: 100%;
+    height: 40px;
+    background-color: #B8C2B6;
+    padding-top: 8px;
+    letter-spacing: 2px;
+    color: #494D46;
+}
+
+.plans{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 100vh;
+    
+
+}
+.pro{
+    width: 30%;
+    height: 80%;
+    border: 1px solid transparent;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #46E61E ,
+    -3px -3px 5px  #46E61E;
+    
+}
+.png2{
+    width: 100%;
+    height: 40%;
+}
+.h44{
+    letter-spacing: 2px;
+    color: #02701F;
+    font-weight: 600;
+}
+.h33{
+    letter-spacing: 2px;
+    color: silver;
+    font-weight: 600;
+}
+.h22{
+    letter-spacing: 2px;
+    color: gold;
+    font-weight: 600;
+}
+.pro h4{
+    margin-top: 15px;
+    font-size: 17px;
+    padding-top: 10px;
+    
+    
+}
+.pro h4 i{
+    padding-right: 5px;
+    color: #494D46;
+}
+.btn1{
+    margin-top: 15px;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #46E61E;
+    color: white;
+    border-color: transparent;
+    transition: 0.8s;
+}
+.btn1:hover{
+    background-color: white;
+    color: #004B10;
+    border-color: #004B10;
+}
+
+/*partners*/
+
+.partners{
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    
+
+}
+.title2{
+    width: 100%;
+    height: 40px;
+    background-color: #B8C2B6;
+    padding-top: 8px;
+    letter-spacing: 2px;
+    color: #494D46;
+    margin-top: 40px;
+}
+.partners i{
+    margin-top: 50px;
+    padding-right: 100px;
+    font-size: 100px;
+    filter: grayscale(100%);
+    transition: filter 0.4s ease ;
+    cursor: pointer;
+}
+.partners i:hover{
+    filter: grayscale(0%);
+}
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 10%;
+    width: 100%;
+    height: 90%;
+}
+#face-icon{
+    margin-left: 30%;
+}
+
+/*  application   */
+
+.app{
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    background-color: #18BA56;
+    align-items: center;
+
+}
+.apptext{
+    width: 100%;
+    height: 50%;
+}
+.bot{
+    width: 100%;
+    height: 50%;
+}
+.apptext h3{
+    color: white;
+    font-size: 32px;
+    letter-spacing: 1.5px;
+    padding-top: 15vh;
+}
+.apptext p{
+    font-size: 24px;
+    color: white;
+    letter-spacing: 2px;
+    padding-top: 20px;
+}
+.btn2{
+    
+    width: 190px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 30px 20px;
+    border-radius: 15px;
+    background-color: #000;
+    border: 1px solid transparent;
+    color: white;
+    transition: 0.6s;
+    cursor: pointer;
+
+
+}
+.btn2 i{
+    padding-right: 9px;
+    font-size: 22px;
+}
+.btn2:hover{
+    background-color: #494D46;
+    color: #fff;
+    border-color: #000;
+    transform: scale(1.1);
+
+}
+
+/*footer*/  
+
+footer{
+    width: 100%;
+    height: 20vh;
+    border-top: 2px solid #004B10;
+    margin-top: 200px;
+    display: flex;
+    background: linear-gradient(#18BA56 , #02701F , #004B10);
+    
+    
+    
+}
+.short{
+    width: 20%;
+    display: inline-block;
+    height: 100%;
+    
+    text-align: center;
+    margin: auto;
+}
+.short h4{
+    padding-top: 17px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    
+   
+}
+.short h4:hover{
+    color: #000;
+    font-weight: 700;
+}
+
+.social{
+    width: 30%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    
+}
+.social h4{
+    padding-top: 17px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    color: white;
+    
+}
+.social i{
+    font-size: 22px;
+    padding-top: 20px;
+    padding-left: 40px;
+    cursor: pointer;
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+max 455
+max 600 
+601 _____ 750
+751 _____ 830
+831 _____1300
+*/
+
+
+@media (min-width:870px) and (max-width:1300px){
+    .logo h1{
+        position: relative;
+        left: 30px;
+        cursor: pointer;
+        color: white;
+        letter-spacing: 1.5px;
+        transition: 0.8s;
+        font-size: 28px;
+        
+    }
+    .logo h1:hover{
+        color: rgb(35, 145, 141);
+    }
+    .listo ul li{
+        display: inline-block;
+        margin: 0 15px;
+        list-style: none;
+    }
+    .listo ul li a{
+        font-size: 15px;
+    }
+    .text h1{
+        font-size: 38px;
+    }
+    .text p{
+        font-size: 22px;
+    }
+    .partners i{
+        font-size: 70px;
+        padding-right: 70px;
+        align-self: center;
+        position: relative;
+        left: 5vh;
+        right: 5vh;
+    }
+    .icons{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        margin: 0 5%;
+        width: 100%;
+        height: 90%;
+    }
+    #face-icon{
+        margin-left: 30%;
+    }
+}
+
+/*950 to 1100*/
+
+@media (min-width:950px) and (max-width:1100px){
+    .partners i{
+        font-size: 70px;
+        padding-right: 70px;
+        align-self: center;
+        position: relative;
+        left: 15vh;
+        
+    }
+    .listo ul li{
+        display: inline-block;
+        margin: 0 25px;
+        list-style: none;
+    }
+
+}
+
+/*1101 to 1300*/
+
+@media (min-width:1101x) and (max-width:1300px){
+    .partners i{
+        font-size: 70px;
+        padding-right: 100px;
+        align-self: center;
+        position: relative;
+        padding-left: 200px;
+    }
+    .listo ul li{
+        display: inline-block;
+        margin: 0 25px;
+        list-style: none;
+    }
+
+}
+/* 751 to 869 */
+
+@media (min-width:751px) and (max-width:869px){
+    .banner{
+        width: 100%;
+        height: 10vh;
+        background: linear-gradient(#18BA56 , #02701F , #004B10);
+        display: block;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .listo ul li{
+        display: block;
+        margin: 15px 0px;
+        list-style: none;
+    }
+    .momo{
+        margin-top: 0px;
+    }
+    .listo ul li a{
+        font-size: 18px;
+    }
+
+    .logo{
+        height: 10vh;
+        border-bottom: 0.5px solid #18BA56;
+        width: 100%;
+    }
+    .logo h1{
+        position: relative;
+        left: 0;
+        text-align: center;
+        top: 10px;
+    }
+    .social i{
+        font-size: 18px;
+        padding-top: 15px;
+        padding-left: 30px;
+        cursor: pointer;
+       
+        
+    }
+    .short h4{
+        padding-top: 12px;
+        letter-spacing: 1.5px;
+        font-weight: 600;
+        color: white;
+        cursor: pointer;
+        
+       
+    }
+    .social h4{
+        padding-top: 12px;
+   
+    }
+    .listo{
+        height: 30vh;
+        text-align: center;
+        transform: translate(-100%);
+        transition: 0.8s;
+    }
+    .image1{
+        width: 40%;
+        height: 100%;
+        float: right;
+        margin-right: 5%;
+        padding-top: 25%;
+        
+    }
+    #fal{
+        position: relative;
+        left: 46%;
+        top: 3px;
+        font-size: 28px;
+        color: white;
+        cursor: pointer;
+        display: block;
+        
+        
+    }
+    .text{
+        width: 40%;
+        height: 100%;
+        float: left;
+        margin-left: 5%;
+        padding-top: 15%;
+      
+    }
+    #tro{
+        position: absolute;
+        left: 5px;
+        top: 10px;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+        display: block;
+    }
+    .text h1{
+        font-size: 29px;
+    }
+    .text p{
+        font-size: 17px;
+    }
+    .partners i{
+        font-size: 70px;
+        padding-right: 70px;
+        align-self: center;
+        position: relative;
+        left: 6vh;
+        right: 10vh;
+    }
+    .icons{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        margin: 0 5%;
+        width: 100%;
+        height: 90%;
+    }
+    #face-icon{
+        margin-left: 0%;
+    }
+}
+
+/*601 _____ 750*/
+
+@media (min-width:601px) and (max-width:750px){
+    .banner{
+        width: 100%;
+        height: 10vh;
+        background: linear-gradient(#18BA56 , #02701F , #004B10);
+        display: block;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .listo ul li{
+        display: block;
+        margin: 15px 0px;
+        list-style: none;
+    }
+    .momo{
+        margin-top: 0px;
+    }
+    .listo ul li a{
+        font-size: 18px;
+    }
+
+    .logo{
+        height: 10vh;
+        border-bottom: 0.5px solid #18BA56;
+        width: 100%;
+    }
+    .logo h1{
+        position: relative;
+        left: 0;
+        text-align: center;
+        top: 10px;
+    }
+    .social i{
+        font-size: 15px;
+        padding-top: 15px;
+        padding-left: 20px;
+        cursor: pointer;
+       
+        
+    }
+    .short h4{
+        padding-top: 15px;
+        letter-spacing: 1.5px;
+        font-weight: 600;
+        color: white;
+        cursor: pointer;
+        font-size: 14px;
+        
+       
+    }
+    .social h4{
+        padding-top: 15px;
+        font-size: 14px;
+   
+    }
+    .listo{
+        height: 30vh;
+        text-align: center;
+        transform: translate(-100%);
+        transition: 0.8s;
+    }
+    .image1{
+        width: 40%;
+        height: 100%;
+        float: right;
+        margin-right: 5%;
+        padding-top: 30%;
+        
+    }
+    #fal{
+        position: relative;
+        left: 46%;
+        top: 3px;
+        font-size: 28px;
+        color: white;
+        cursor: pointer;
+        display: block;
+        
+        
+    }
+    .text{
+        width: 40%;
+        height: 100%;
+        float: left;
+        margin-left: 5%;
+        padding-top: 15%;
+      
+    }
+    #tro{
+        position: absolute;
+        left: 5px;
+        top: 10px;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+        display: block;
+    }
+    .text h1{
+        font-size: 29px;
+    }
+    .text p{
+        font-size: 17px;
+    }
+    .partners i{
+        font-size: 70px;
+        padding-right: 70px;
+        align-self: center;
+        position: relative;
+        left: 6vh;
+        right: 10vh;
+    }
+    .icons{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        margin: 0 5%;
+        width: 100%;
+        height: 90%;
+    }
+    #face-icon{
+        margin-left: 0%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* for less than 600px */
+
+@media (max-width:600px){
+    .banner{
+        width: 100%;
+        height: 10vh;
+        background: linear-gradient(#18BA56 , #02701F , #004B10);
+        display: block;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .listo ul li{
+        display: block;
+        margin: 15px 0px;
+        list-style: none;
+    }
+    .momo{
+        margin-top: 0px;
+    }
+    .listo ul li a{
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .logo{
+        height: 10vh;
+        border-bottom: 0.5px solid #18BA56;
+        width: 100%;
+    }
+    .logo h1{
+        position: relative;
+        left: 0;
+        text-align: center;
+        top: 10px;
+    }
+    .listo{
+        height: 30vh;
+        text-align: center;
+        transform: translate(-100%);
+        transition: 0.8s;
+    }
+    #fal{
+        position: relative;
+        left: 46%;
+        top: 3px;
+        font-size: 28px;
+        color: white;
+        cursor: pointer;
+        display: block;
+        
+        
+    }
+    #tro{
+        position: absolute;
+        left: 5px;
+        top: 10px;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+        display: block;
+    }
+    
+     
+        .social i{
+            font-size: 14px;
+            padding-top: 15px;
+            padding-left: 10px;
+            cursor: pointer;
+           
+            
+        }
+        .short h4{
+            padding-top: 20px;
+            letter-spacing: 1.5px;
+            font-weight: 600;
+            color: white;
+            cursor: pointer;
+            font-size: 10px;
+            
+           
+        }
+        .social h4{
+            padding-top: 15px;
+            font-size: 10px;
+       
+        }
+        .listo{
+            height: 30vh;
+            text-align: center;
+            transform: translate(-100%);
+            transition: 0.8s;
+        }
+        .image1{
+            
+            display: none;
+            
+        }
+        #fal{
+            position: relative;
+            left: 46%;
+            top: 3px;
+            font-size: 28px;
+            color: white;
+            cursor: pointer;
+            display: block;
+            
+            
+        }
+        .text{
+            width: 100%;
+            height: 100%;
+            float: left;
+            margin-left: 5%;
+            padding-top: 10%;
+          
+        }
+        #tro{
+            position: absolute;
+            left: 5px;
+            top: 10px;
+            font-size: 30px;
+            color: white;
+            cursor: pointer;
+            display: block;
+        }
+        .text h1{
+            font-size: 29px;
+        }
+        .text p{
+            font-size: 23px;
+        }
+        .partners i{
+            font-size: 40px;
+            padding-right: 70px;
+            align-self: center;
+            position: relative;
+            left: 6vh;
+            right: 10vh;
+        }
+        .icons{
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            align-items: center;
+            margin: 0 5%;
+            width: 100%;
+            height: 90%;
+        }
+        #face-icon{
+            margin-left: 0%;
+        }
+        .plans{
+            height: 240vh;
+            
+        }
+        .pro{
+            width: 70%;
+            height: 30%;
+            border: 1px solid transparent;
+            margin: auto;
+            border-radius: 5px;
+            box-shadow: 3px 3px 5px #46E61E ,
+            -3px -3px 5px  #46E61E;
+            margin-top: 15px;
+            
+        }
+        .pro h4{
+            margin-top: 15px;
+            font-size: 15px;
+            
+            
+            
+        }
+        .btn1{
+            margin-top: 15px;
+        }
+        
+    
+    
+
+}
+
+@media (max-width:485px){
+    .apptext h3{
+        color: white;
+        font-size:28px;
+        letter-spacing: 1.5px;
+        padding-top: 15vh;
+    }
+    .apptext p{
+        font-size: 21px;
+        color: white;
+        letter-spacing: 2px;
+        padding-top: 20px;
+    }
+    .btn2{
+        
+        width: 170px;
+        height: 30px;
+        font-size: 16px;
+        font-weight: 600;
+        margin: 30px 20px;
+        border-radius: 15px;
+        background-color: #000;
+        border: 1px solid transparent;
+        color: white;
+        transition: 0.6s;
+        cursor: pointer;
+    
+    
+    }
+    .btn2 i{
+        padding-right: 9px;
+        font-size: 19px;
+    }
+
+      
+    .social i{
+        font-size: 12px;
+        padding-top: 15px;
+        padding-left: 10px;
+        cursor: pointer;
+       
+        
+    }
+    .short h4{
+        padding-top: 20px;
+        letter-spacing: 1.5px;
+        font-weight: 600;
+        color: white;
+        cursor: pointer;
+        font-size:7px;
+        
+       
+    }
+    .social h4{
+        padding-top: 20px;
+        font-size: 7px;
+   
+    }
+    .short{
+        width: 23%;
+    }
+   
+}
